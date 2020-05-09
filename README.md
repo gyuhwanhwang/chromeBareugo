@@ -1,0 +1,1 @@
+# BareuGo Chrome App
