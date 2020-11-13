@@ -1,9 +1,18 @@
-let goBtn = document.getElementById("btn");
+let strBtn = document.getElementById("strBtn");
+let lenBtn = document.getElementById("lenBtn");
 
-goBtn.onclick = function() {
+strBtn.onclick = function() {
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
         chrome.tabs.executeScript({
-            file: "goBtn.js",
+            file: "strBtn.js",
+        });
+    });
+};
+
+lenBtn.onclick = function() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+        chrome.tabs.executeScript({
+            file: "lenBtn.js",
         });
     });
 };
