@@ -9,6 +9,8 @@ chrome.commands.onCommand.addListener(function(command) {
     }
 });
 
+var serverhost = "http://127.0.0.1:8000";
+
 // function goButtonHkey() {
 //     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
 //         chrome.tabs.executeScript({

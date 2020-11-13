@@ -13,6 +13,8 @@ var step;
 //     document.getElementsByClassName("u_cbox_contents")[step].style.color =
 //         "red";
 // }
+// step : "댓글"
+//  [1, 2 , 3, 5], [5 ,7,]
 for (step = 0; step < 2; step++) {
     console.log(
         document.getElementsByClassName("u_cbox_contents")[step].innerHTML
