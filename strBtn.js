@@ -15,6 +15,14 @@ var step;
 // }
 // step : "댓글"
 //  [1, 2 , 3, 5], [5 ,7,]
+
+comments = {};
+for (step = 0; step < 9; step++) {
+    comments[step] = document.getElementsByClassName("u_cbox_contents")[
+        step
+    ].innerHTML;
+}
+
 for (step = 0; step < 2; step++) {
     console.log(
         document.getElementsByClassName("u_cbox_contents")[step].innerHTML
@@ -45,3 +53,14 @@ for (step = 3; step < 5; step++) {
     document.getElementsByClassName("u_cbox_contents")[step].style.color =
         "white";
 }
+
+// message = JSON.stringify(comments, null, 2);
+message = JSON.stringify(comments);
+
+chrome.runtime.sendMessage(message, function(response) {
+    console.log(message);
+    // result = response.farewell;
+    console.log("hi");
+    console.log(response.farewell);
+    // console.log(response);
+});
