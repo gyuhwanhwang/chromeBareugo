@@ -22,8 +22,8 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     const xhr = new XMLHttpRequest();
     // xhr.onreadystatechange = handleStateChange;
 
-    xhr.open("POST", "http://127.0.0.1:8000/classify/get_harmful_index/");
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.open("POST", url);
+    xhr.setRequestHeader("Content-type", "application/json");
     xhr.send(request);
 
     console.log(request);
