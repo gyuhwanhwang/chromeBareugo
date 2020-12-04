@@ -28,10 +28,8 @@
 
 <img src="images\ui.JPG" width="50%" height="20%" alt="UI"></img>
 
--   적용 전
+-   적용 전, 후
 
-<img src="images\before.JPG" width="70%" height="30%" alt="적용 전"></img>
+<img src="images\before.JPG" width="48%" height="30%" alt="적용 전" style="float:left"></img>
 
--   적용 후
-
-<img src="images\after.JPG" width="70%" height="30%" alt="적용 후"></img>
+<img src="images\after.JPG" width="48%" height="30%" alt="적용 후" style="margin:0 0 0 1% " ></img>
