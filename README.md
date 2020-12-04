@@ -30,6 +30,6 @@
 
 -   적용 전, 후
 
-<img src="images\before.JPG" width="48%" height="30%" alt="적용 전" style="float:left"></img>
+<img src="images\before.JPG" width="70%" height="30%" alt="적용 전" style="float:left"></img>
 
-<img src="images\after.JPG" width="48%" height="30%" alt="적용 후" style="margin:0 0 0 1% " ></img>
+<img src="images\after.JPG" width="70%" height="30%" alt="적용 후" style="margin: 2% 0 0 0" ></img>
