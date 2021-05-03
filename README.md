@@ -1,6 +1,5 @@
-# BareuGo Chrome App
-
-# 인공지능을 활용한 유해언어 차단 크롬 앱
+![header](https://capsule-render.vercel.app/api?type=soft&color=EFDC05&fontColor=090707&height=120&section=header&text=BareuGo%20Chrome%20App&fontSize=70)
+### <center>인공지능을 활용한 유해언어 차단 크롬 앱</center>
 
 ## 1. Background 배경
 
